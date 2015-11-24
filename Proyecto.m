@@ -12,7 +12,7 @@ for columnas = 1:length(Y)
     C3 = 0.5*4*sqrt(((X(filas,columnas)-T3(1,1)).^2)+((Y(filas,columnas)-T3(1,2))).^2);
     C4 = 0.5*5*sqrt(((X(filas,columnas)-T4(1,1)).^2)+((Y(filas,columnas)-T4(1,2))).^2);
     C5 = 0.5*2*sqrt(((X(filas,columnas)-T5(1,1)).^2)+((Y(filas,columnas)-T5(1,2))).^2);
-    C6 = 0.5*6*sqrt(((X(filas,columnas)-T6(1,1)).^2)+((Y(filas,columnas)-T6(1,2))).^2) ;  
+    C6 = 0.5*6*sqrt(((X(filas,columnas)-T6(1,1)).^2)+((Y(filas,columnas)-T6(1,2))).^2);  
 D(filas,columnas)=sum([C1 C2 C3 C4 C5 C6]);
 end
 end
